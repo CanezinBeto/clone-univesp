@@ -1,0 +1,117 @@
+.container {
+  background-image: url(../img/background.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 256px;
+}
+
+.logo-univesp {
+  max-width: 160px;
+  padding: 25px;
+}
+
+.login {
+  max-width: 420px;
+  height: 325px;
+  background: #fff;
+  padding: 65px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateX(-70%);
+  position: relative;
+}
+
+.logo-sou {
+  max-width: 100px;
+  position: absolute;
+  top: -65px;
+  left: 160px;
+}
+
+.h2-login {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #d13239;
+}
+
+.p-login {
+  margin-top: 10px;
+}
+
+.p-email {
+  text-align: left;
+  margin-top: 60px;
+  font-size: 12px;
+  color: #d13239;
+}
+
+.p-email::after {
+  content: '';
+  display: block;
+  width: 360px;
+  height: 2px;
+  background: #1c1b1b;
+  margin-top: 30px;
+}
+
+.acesso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.acesso p {
+  font-size: 12px;
+  color: #d13239;
+}
+
+.button {
+  background: #d13239;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .login {
+    transform: translateX(0px);
+  }
+}
+
+@media (max-width: 800px) {
+  .logo-univesp {
+    max-width: 90px;
+  }
+  .login {
+    max-width: 400px;
+  }
+  .p-email::after {
+    width: 300px;
+  }
+
+  .logo-sou {
+    left: 130px;
+  }
+}
+
+@media (max-width: 420px) {
+  .login {
+    max-width: 330px;
+  }
+  .p-email::after {
+    width: 270px;
+  }
+  .logo-sou {
+    left: 110px;
+  }
+  .button {
+    font-size: 10px;
+  }
+}
