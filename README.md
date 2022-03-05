@@ -7,7 +7,7 @@ Este projeto foi desenvolvido para ser meu primeiro tutorial no Youtube.</p>
 - É totalmente responsivo
 - Tem um menu mobile
 
-## Veja toda a série peloi Youtube
+## Veja toda a série pelo Youtube
 
 <a href='https://youtube'>Veja a serie completa</a>
 
