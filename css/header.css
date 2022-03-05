@@ -1,0 +1,59 @@
+.header {
+  grid-column: 2;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(../img/bg-red.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+  position: relative;
+}
+
+.h3-header {
+  display: none;
+}
+
+.img-header img {
+  position: absolute;
+  max-width: 140px;
+  left: 20px;
+  top: 40px;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    grid-column: 1 / -1;
+    height: 20vh;
+    overflow: hidden;
+  }
+  .header.ativo {
+    grid-column: 2/-1;
+    animation: showLeft 0.3s forwards;
+  }
+  .img-header img {
+    max-width: 90px;
+    position: initial;
+    margin: 0 auto;
+  }
+  .img-header {
+    height: 100%;
+    display: grid;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .h3-header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #d12339;
+    color: #fff;
+    font-size: 1.1rem;
+    position: absolute;
+  }
+}
