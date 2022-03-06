@@ -7,11 +7,11 @@ Este projeto foi desenvolvido para ser meu primeiro tutorial no Youtube.</p>
 - É totalmente responsivo
 - Tem um menu mobile
 
-## Veja toda a série pelo Youtube
+## Veja toda a serie pelo Youtube
 
 <a href='https://www.youtube.com/watch?v=PNwKu2xVE5I&t=1s&ab_channel=AlbertoCanezin'>Veja a serie completa</a>
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 
 - JavaScript
 - Clean CSS
