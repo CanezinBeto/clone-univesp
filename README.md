@@ -9,7 +9,7 @@ Este projeto foi desenvolvido para ser meu primeiro tutorial no Youtube.</p>
 
 ## Veja toda a série pelo Youtube
 
-<a href='https://youtube'>Veja a serie completa</a>
+<a href='https://www.youtube.com/watch?v=PNwKu2xVE5I&t=1s&ab_channel=AlbertoCanezin'>Veja a serie completa</a>
 
 ## Técnologias Utilizadas
 
