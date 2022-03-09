@@ -11,6 +11,10 @@ Este projeto foi desenvolvido para ser meu primeiro tutorial no Youtube.</p>
 
 <a href='https://www.youtube.com/watch?v=PNwKu2xVE5I&t=1s&ab_channel=AlbertoCanezin'>Veja a serie completa</a>
 
+## Veja o site no Github Pages
+
+<a href='https://canezinbeto.github.io/clone-univesp/'>Veja o site</a>
+
 ## Tecnologias Utilizadas
 
 - JavaScript
